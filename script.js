@@ -1,6 +1,6 @@
 let timer;
 let isRunning = false;
-let timeLeft = 5;
+let timeLeft = 25 * 60;
 let soundLoaded = false;
 
 const minutesDisplay = document.getElementById('minutes');
@@ -107,4 +107,5 @@ function updateXPDisplay() {
 
 // Initial Display
 updateTimerDisplay();
+
 updateXPDisplay();
