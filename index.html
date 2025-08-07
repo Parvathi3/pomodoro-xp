@@ -2,18 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Pomodoro XP Fix Test</title>
+    <title>Pomodoro XP</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
+        <div class="header">
         <h1>Pomodoro XP</h1>
-        <div class="mode-badge" id="modeBadge">Focus Mode</div>
-        <div class="level-display">Level: <span id="level">1</span></div>
-        <div class="xp-bar">
-          <div id="xp-progress"></div>
+        <div class = "mode-badge" id="modeBadge">Focus Mode</div>
         </div>
-       <div class="xp-status">XP: <span id="xp">0</span>/100</div> 
+
+        <div class="level-display">
+            Level: <span id="level">1</span>
+        </div>
+
         <div class="timer">
             <span id="minutes">25</span>:<span id="seconds">00</span>
         </div>
@@ -22,6 +24,14 @@
             <button id="startBtn">Start</button>
             <button id="pauseBtn" disabled>Pause</button>
             <button id="resetBtn">Reset</button>
+        </div>
+
+        <div class="xp-bar">
+            <div id="xp-progress"></div>
+        </div>
+
+        <div class="xp-status">
+            XP: <span id="xp">0</span>/100
         </div>
     </div>
 
